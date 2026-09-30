@@ -1,0 +1,34 @@
+:root {
+  /* Foundation */
+  --cream: #f3ede2;
+  --paper: #fbf8f2;
+  --stage: #e9e2d5;
+  --ink: #1e1c19;
+  --ink-2: #5e574d;
+  --ink-3: #8f877b;
+  --rule: #d9d0c1;
+  --rule-soft: #e4dccd;
+  --placeholder: #e7dfd0;
+
+  /* Accents — one per screen, mostly for state */
+  --leaf: #4e6a3b;
+  --tomato: #b8432b;
+  --teal: #b4ddd3;
+  --teal-wash: #e4f2ee;
+  --butter: #e6ce82;
+  --butter-wash: #f1e3b8;
+  --ticket: #f4ecd8;
+
+  /* Type */
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --mono: 'Geist Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  /* Chrome for fridge handles */
+  --chrome: linear-gradient(180deg, #f7f7f4 0%, #b9b8b3 45%, #eeedea 62%, #85847f 100%);
+
+  --radius: 8px;
+  --ease: cubic-bezier(0.3, 0.7, 0.15, 1);
+  /* Slight overshoot, like something with weight settling. */
+  --spring: cubic-bezier(0.34, 1.4, 0.55, 1);
+}
